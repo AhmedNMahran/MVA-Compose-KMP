@@ -24,7 +24,7 @@ fun ConsumptionTiles(items: List<Consumption>) {
             .background(Color.Transparent),
             contentAlignment = Alignment.Center
         ) {
-            Tile(items[index])
+            ConsumptionTile(items[index])
         }
     }
 }
